@@ -1,5 +1,9 @@
 #!/bin/bash
 
+docker stop $(docker ps -a -q)
+docker system prune -a --volumes --force
+sudo chown david:david /home/david/parcial/
+sudo chmod -R 770 /hom/david/parcial/
 # Colores y emojis
 GREEN='\033[0;32m'
 RED='\033[0;31m'

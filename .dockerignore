@@ -1,0 +1,39 @@
+# 🐍 Cosas de Python (si usas Python)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 📦 Dependencias locales
+node_modules/
+venv/
+.env
+
+# ⚙️ Archivos de configuración que no quieres que se filtren
+.env*
+*.secret
+*.pem
+*.key
+
+# 🗃️ Archivos del sistema / IDEs
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 🧪 Cosas de pruebas
+tests/
+coverage/
+*.log
+
+# 📦 Archivos de construcción que no se necesitan en la imagen
+dist/
+build/
+*.egg-info/
+
+# 🔁 Repositorios y otros
+.git
+.gitignore
+docker-compose*.yaml
